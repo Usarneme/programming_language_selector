@@ -9,3 +9,8 @@
 .italic {
   font-style: italic;
 }
+
+/* Hide the questions by default, jQuery will show them one at a time */
+.question {
+  display: none;
+}
