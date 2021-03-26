@@ -1,4 +1,4 @@
-.btn {
+.col.btn {
   min-height: 60px;
 }
 
@@ -19,7 +19,7 @@
 
 .ui-progressbar-value {
   background: lightsalmon;
-  border-right: 2px solid lime;
+  border-right: 2px solid rgb(86, 174, 206);
 }
 
 .ui-widget.ui-widget-content {
