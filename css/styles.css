@@ -1,3 +1,11 @@
 .btn {
-  /* height: 100%; */
+  min-height: 60px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.italic {
+  font-style: italic;
 }
