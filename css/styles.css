@@ -10,6 +10,22 @@
   font-style: italic;
 }
 
+.progress-bar {
+  height: 19px;
+  border-radius: 0;
+  border: none;
+  background: lightblue;
+}
+
+.ui-progressbar-value {
+  background: lightsalmon;
+  border-right: 2px solid lime;
+}
+
+.ui-widget.ui-widget-content {
+  border: none;
+}
+
 /* Hide the questions by default, jQuery will show them one at a time */
 .question {
   display: none;
