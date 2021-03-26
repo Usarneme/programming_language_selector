@@ -20,6 +20,10 @@
   --color15: #E5E5E5;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: var(--background);
   color: var(--cursor);
@@ -28,6 +32,10 @@ body {
 a {
   text-decoration: none;
   color: var(--cursor);
+}
+
+.main {
+  min-height: 90vh;
 }
 
 .btn.btn-lg:hover, .btn-block:hover, a:hover {
@@ -56,6 +64,11 @@ a {
 
 .strike {
   text-decoration: line-through;
+}
+
+.questions-container,
+.results-container {
+  max-width: 856px;
 }
 
 .progress-bar {

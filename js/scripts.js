@@ -20,7 +20,7 @@ $(document).ready(function() {
   // track which question is showing using this index
   let questionShowingIndex = 0  
   // start by showing the first question (note: must be a jquery object to use jquery functions eg show())
-  $(questions[questionShowingIndex]).show({ duration: 600, easing: "swing" })
+  $(questions[questionShowingIndex]).show({ duration: 400, easing: "swing" })
   // ready the progress bar
   const progressBar = $(".progress-bar")
   progressBar.progressbar({ value: false })
@@ -45,7 +45,7 @@ $(document).ready(function() {
     progressBar.progressbar({ value: questionShowingIndex * 20 }) // 5 questions, so 20%-40%-60%-80%-100%
     // show the next question if it exists
     if (questionShowingIndex < questions.length) {
-      $(questions[questionShowingIndex]).show({ duration: 600, easing: "swing" })
+      $(questions[questionShowingIndex]).show({ duration: 400, easing: "swing" })
     } else {
       // otherwise all questions are answered! 
       // hide the questions
@@ -56,10 +56,10 @@ $(document).ready(function() {
       const htmlString = `
         <div class="container-fluid m-0 p-5 text-center">
           <h2>The ${fate.language} Language Is Your Future!</h2>
-          <p>
-            <a href="${fate.link}">${fate.link}</a>
+          <p class="m-3 p-3">
+            <a class="m-5 p-2" href="${fate.link}">${fate.link}</a>
           </p>
-          <a class="btn btn-outline-info btn-block btn-lg p-2" href="#" onclick="location.reload()">Try again!</a>
+          <a class="btn btn-outline-info btn-block btn-lg p-2 mt-5" href="#" onclick="location.reload()">Try again!</a>
         </div>`
       $(resultsContainer).html(htmlString)
       // display the results

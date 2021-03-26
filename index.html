@@ -13,72 +13,80 @@
   <title>CoderChooser</title>
 </head>
 <body class="light">
-  <section class="main">
-    <div class="container-fluid mx-auto">
-      <div class="jumbotron text-center">
-        <h1 class="text-uppercase font-weight-bold m-3 mb-0">Which Programming Language Is Right For You?</h1>
-        <p class="mt-n3 pt-0">Answer thee these questions <small class="strike font-weight-light font-italic">three</small>five to cross the Bridge of <small class="strike font-weight-light font-italic">Death</small>Programmer</p>
+  <section>
+    <div class="main">
+
+      <div class="container-fluid mx-auto">
+        <div class="jumbotron text-center mb-5">
+          <h1 class="text-uppercase font-weight-bold m-3 mb-0">Which Programming Language Is Right For You?</h1>
+          <p class="mt-n3 pt-0">Answer thee these questions <small class="strike font-weight-light font-italic">three</small>five to cross the Bridge of <small class="strike font-weight-light font-italic">Death</small>Programmer</p>
+        </div>
+
+        <div class="container-fluid mx-auto mt-5 card p-0 questions-container">
+          <div class="progress-bar"></div>
+          <form class="questions-form">
+            <div class="container mx-auto p-4 question question-1">
+              <div class="row jumbotron">
+                <h3>What is your name?</h3>
+              </div>
+              <div class="row">
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Galahad</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Lancelot</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Arthur</button>
+              </div>
+            </div>
+            <div class="container mx-auto p-4 question question-2">
+              <div class="row jumbotron">
+                <h3>What is your quest?</h3>
+              </div>
+              <div class="row">
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To seek the holy grail</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To find the holy hand grenade</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To defeat the Knights who say "Ni"</button>
+              </div>
+            </div>
+            <div class="container mx-auto p-4 question question-3">
+              <div class="row jumbotron">
+                <h3>What is your favorite color?</h3>
+              </div>
+              <div class="row">
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Red</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Green</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Blue. No yel-- Auuuuuuuugh!</button>
+              </div>
+            </div>
+            <div class="container mx-auto p-4 question question-4">
+              <div class="row jumbotron">
+                <h3>What is the capital of Assyria?</h3>
+              </div>
+              <div class="row">
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Aššur</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Nineveh</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">I don't know that! Auuuuuuuugh!</button>
+              </div>
+            </div>
+            <div class="container mx-auto p-4 question question-5">
+              <div class="row jumbotron">
+                <h3>What is the air-speed velocity of an unladen swallow?</h3>
+              </div>
+              <div class="row">
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">8-11 meters per second</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">An African or European swallow?</button>
+                <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">What? I don't know that! Auuuuuuuugh!</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="container-fluid mx-auto my-auto card results-container">
+        </div>
       </div>
 
-      <div class="container-fluid mx-auto card p-0 questions-container">
-        <div class="progress-bar"></div>
-        <form class="questions-form">
-          <div class="container mx-auto p-4 question question-1">
-            <div class="row jumbotron">
-              <h3>What is your name?</h3>
-            </div>
-            <div class="row">
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Galahad</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Lancelot</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Arthur</button>
-            </div>
-          </div>
-          <div class="container mx-auto p-4 question question-2">
-            <div class="row jumbotron">
-              <h3>What is your quest?</h3>
-            </div>
-            <div class="row">
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To seek the holy grail</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To find the holy hand grenade</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">To defeat the Knights who say "Ni"</button>
-            </div>
-          </div>
-          <div class="container mx-auto p-4 question question-3">
-            <div class="row jumbotron">
-              <h3>What is your favorite color?</h3>
-            </div>
-            <div class="row">
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Red</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Green</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Blue. No yel-- Auuuuuuuugh!</button>
-            </div>
-          </div>
-          <div class="container mx-auto p-4 question question-4">
-            <div class="row jumbotron">
-              <h3>What is the capital of Assyria?</h3>
-            </div>
-            <div class="row">
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Aššur</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">Nineveh</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">I don't know that! Auuuuuuuugh!</button>
-            </div>
-          </div>
-          <div class="container mx-auto p-4 question question-5">
-            <div class="row jumbotron">
-              <h3>What is the air-speed velocity of an unladen swallow?</h3>
-            </div>
-            <div class="row">
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">8-11 meters per second</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">An African or European swallow?</button>
-              <button class="col btn btn-outline-info btn-lg" data-toggle="button" aria-pressed="false" autocomplete="off">What? I don't know that! Auuuuuuuugh!</button>
-            </div>
-          </div>
-        </form>
-      </div>
-
-      <div class="container-fluid mx-auto card results-container">
-      </div>
+      <div class="container p-3 spacer"></div>
     </div>
+
+    <footer class="mt-5 p-2">&copy; 2021 Usarneme/Tom</footer>
+
   </section>
 
   <script
