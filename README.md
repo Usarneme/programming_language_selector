@@ -1,19 +1,39 @@
-# PROJECT NAME
-
+# Programming Language Suggester
 ## By Usarneme/Tom
 
 ---
-#### Tech Stack:
-1. HTML/CSS/JS
-2. GoLang
-3.
+#### View Project:
+
+https://usarneme.github.io/programming_language_selector
+
 ---
-#### Instructions:
-1. Clone this repo: `git clone <this repo url>`
-2. Enter new directory `cd <repo dir name>`
-3. Install dependencies `npm install` or `yarn install`
-4. Begin the server `npm start` or `yarn start`
+#### Setup Instructions:
+1. Clone this repo: `git clone https://github.com/Usarneme/programming_language_selector`
+2. Enter new directory `cd programming_language_selector`
+3. Begin the server, eg: `python2 -m SimpleHTTPServer 8080`
+4. Open localhost:8080 in your browser
+---
+### Tools Used
+1. HTML5
+2. CSS3
+3. JavaScript
+4. jQuery
+5. Twitter Bootstrap
+6. git CLI
+
 ---
 #### Known Issues:
-1. Please open a pull request if you have any issues!
+* Please open a pull request if you have any issues!
 ---
+### License is GPLv3 and I make no claim to copyright. 
+<br />
+
+> You can't steal what is freely given. Enjoy!
+
+<br />
+<br />
+<br />
+<br />
+<p align="center">
+  <small>Made with ❤️ in Portland, Oregon. </small>
+</p>

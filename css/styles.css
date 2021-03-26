@@ -1,4 +1,54 @@
+:root {
+  --background: #323F4E;
+  --foreground: #F8F8F2;
+  --cursor: #F8F8F2;
+  --color0: #3D4C5F;
+  --color1: #F48FB1;
+  --color2: #A1EFD3;
+  --color3: #F1FA8C;
+  --color4: #92B6F4;
+  --color5: #BD99FF;
+  --color6: #87DFEB;
+  --color7: #F8F8F2;
+  --color8: #56687E;
+  --color9: #EE4F84;
+  --color10: #53E2AE;
+  --color11: #F1FF52;
+  --color12: #6498EF;
+  --color13: #985EFF;
+  --color14: #24D1E7;
+  --color15: #E5E5E5;
+}
 
+body {
+  background: var(--background);
+  color: var(--cursor);
+}
+
+a {
+  text-decoration: none;
+  color: var(--cursor);
+}
+
+.btn.btn-lg:hover, .btn-block:hover, a:hover {
+  background: var(--color6);
+  border-color: var(--color0);
+  color: var(--color0);
+}
+
+.btn.btn-lg.btn-block {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn.btn-outline-info {
+  color: var(--cursor);
+  border-color: var(--cursor);
+}
+
+.jumbotron, .card {
+  background: var(--color8);
+}
 
 .col.btn {
   min-height: 60px;
@@ -8,20 +58,17 @@
   text-decoration: line-through;
 }
 
-.italic {
-  font-style: italic;
-}
-
 .progress-bar {
-  height: 16px;
+  height: 9px;
   border-radius: 0;
   border: none;
-  background: lightblue;
+  background: var(--color12);
 }
 
 .ui-progressbar-value {
-  background: lightsalmon;
-  border-right: 2px solid rgb(86, 174, 206);
+  border: none;
+  background: var(--color14);
+  border-right: 2px solid var(--color4);
 }
 
 .ui-widget.ui-widget-content {
