@@ -8,6 +8,10 @@ $(document).ready(function() {
   // start by showing the first question
   questions[questionShowingIndex].style.display = "block"
   
+  // ready the progress bar
+  const progressBar = $(".progress-bar")
+  progressBar.progressbar({ value: false })
+
   // handle clicking on any of the buttons within the form
   $("form.questions-form").submit(function(event) {
     event.preventDefault()
@@ -24,12 +28,21 @@ $(document).ready(function() {
     questions[questionShowingIndex].style.display = "none"
     // increment which question is showing
     questionShowingIndex += 1
+    // update the progressbar
+    progressBar.progressbar({ value: questionShowingIndex * 20 }) // 5 questions, so 20%-40%-60%-80%-100%
     // show the next question if it exists
     if (questionShowingIndex < questions.length) {
       questions[questionShowingIndex].style.display = "block"
     } else {
-      // otherwise all questions are answered! display the results...
-      
+      // otherwise all questions are answered! 
+      // hide the questions
+      $(".questions-container").hide()
+      // ready the results for display
+      // TODO func
+      // display the results
+      $("results-container").show()
+      // and hide the progress bar
+      progressBar.progressbar("destroy")
     }
   })
 })
