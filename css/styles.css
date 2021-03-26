@@ -14,3 +14,8 @@
 .question {
   display: none;
 }
+
+/* Hide the results div until they have answered all questions */
+.results-container {
+  display: none;
+}
