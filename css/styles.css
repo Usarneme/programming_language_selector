@@ -25,13 +25,13 @@
   font-size: 1.5rem;
 }
 
-@media all and (min-width: 680px) {
+@media all and (min-width: 780px) {
   * {
     font-size: 1.25rem;
   }
 }
 
-@media all and (min-width: 680px) {
+@media all and (min-width: 1280px) {
   * {
     font-size: 1.1rem;
   }
