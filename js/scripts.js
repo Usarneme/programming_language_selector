@@ -59,7 +59,7 @@ $(document).ready(function() {
           <p>
             <a href="${fate.link}">${fate.link}</a>
           </p>
-          <a class="btn btn-outline-info btn-block btn-lg p-2" href="/">Try again!</a>
+          <a class="btn btn-outline-info btn-block btn-lg p-2" href="#" onclick="setTimeout(location.reload.bind(location), 1)">Try again!</a>
         </div>`
       $(resultsContainer).html(htmlString)
       // display the results
